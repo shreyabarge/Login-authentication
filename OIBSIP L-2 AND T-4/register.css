@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.register{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #f5f5f8;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    font-family: 'poppins',sans-serif;
+
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #4e34b6;
+    font-family: 'poppins',sans-serif;
+
+}
+.register h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #272346;
+    text-align: center;
+}
+.register .main{
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+.content{
+    flex-basis: 100%;
+    padding: 3em 3em;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0,0,0,0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+p{
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.6;
+    text-align: center;
+}
+.btn,button,input{
+    border-radius: 35px;
+}
+.btn:hover,
+button:hover{
+  color: #272346;
+    transition: 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+.register form{
+    margin: 30px 0;
+}
+.register input{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #f7fafc;
+    transition: 0.3s ease;
+}
+.register input:focus{
+    background: transparent;
+    border: 1px solid #4e34b6;
+}
+.register button{
+        font-size: 18px;
+        color: #fff;
+        width: 100%;
+        background: #4e34b6;
+        border: none;
+        padding: 14px 15px;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
